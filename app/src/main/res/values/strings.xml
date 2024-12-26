@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyTravelApp</string>
+    <string name="banner1_title">GET YOUR 20% CASHBACK</string>
+    <string name="banner1_subtitle">Expires 25 June 2025</string>
+    <string name="banner1_desc">Banner 1: Cashback promotion</string>
+    <string name="banner2_title">SUMMER VACATION SPECIALS</string>
+    <string name="banner2_subtitle">Expires 15 July 2025</string>
+    <string name="banner2_desc">Banner 2: Summer vacation discounts</string>
+    <string name="search_records">Search Records</string>
+    <string name="search_hint">Enter record name</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="view">View</string>
+    <string name="select_item_label">Select an Item:</string>
+    <string name="quantity_hint">Enter Quantity</string>
+    <string name="duration_hint">Enter Duration (Days)</string>
+    <string name="calculate_button_label">Calculate</string>
+    <string name="reset_button_label">Reset</string>
+    <string name="transaction_summary_label">Transaction Summary:</string>
+    <string name="total_cost_label">Total Cost: $0.00</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22660328093",
+    "project_id": "mytravelapp-2157e58b",
+    "storage_bucket": "mytravelapp-2157e58b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22660328093:android:edfc8d26d66bb9fc334274",
+        "android_client_info": {
+          "package_name": "com.jabari.mytravelapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ImytFQXX9uvffO8UF4NM_PYSby-CnXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

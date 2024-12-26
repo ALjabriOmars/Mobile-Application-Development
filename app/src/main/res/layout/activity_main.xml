@@ -1,0 +1,198 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- Page Header -->
+    <TextView
+        android:id="@+id/pageHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#444444"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#E3F2FD"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Banner Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:paddingBottom="12dp">
+
+        <!-- Banner 1 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:layout_marginBottom="8dp"
+            android:background="#E3F2FD"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/banner1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banner1" />
+
+            <TextView
+                android:id="@+id/banner1Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="GET YOUR 20% CASHBACK"
+                android:textColor="#444444"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/banner1Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="3dp"
+                android:text="Expires 25 June 2025"
+                android:textColor="#444444" />
+        </RelativeLayout>
+
+        <!-- Banner 2 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="#E3F2FD"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/banner2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banner2" />
+
+            <TextView
+                android:id="@+id/banner2Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="SUMMER VACATION SPECIALS"
+                android:textColor="#444444"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/banner2Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="3dp"
+                android:text="Expires 15 July 2025"
+                android:textColor="#444444" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- Welcome Section -->
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome, [Profile Name]"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#444444"
+        android:layout_marginBottom="8dp"
+        android:gravity="center" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Records"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#757575"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Search Bar -->
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter record name"
+        android:background="@drawable/search_bar_background"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="text"
+        android:textColor="#333333"
+        android:textColorHint="#888888" />
+
+    <!-- Button Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="6dp" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:backgroundTint="#03DAC5"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="6dp" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="6dp" />
+
+        <Button
+            android:id="@+id/viewButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Transaction Button -->
+    <Button
+        android:id="@+id/transactionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Transactions"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
